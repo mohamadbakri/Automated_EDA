@@ -40,8 +40,7 @@ dataset=st.file_uploader(label='')
 
 use_defo=st.checkbox('Use example Dataset')
 if use_defo:
-    dataset='CarPrice_Assignment.csv'
-
+            dataset='International_Report_Departures.csv'
 st.sidebar.header('Import Dataset to Use Available Features: 👉')
 
 if dataset:
